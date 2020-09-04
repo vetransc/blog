@@ -1,32 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog 0</title>
-    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100&display=swap" rel="stylesheet"> 
+    <meta name="author" content="Sarah Vetrano">
+    <meta name="description" content="First blog for CS 347, web development, taught by Chris Johnson. Fall 2020">
+    <meta name="keywords" content="blog, cs347, JMU, Web Development">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100&display=swap" rel="stylesheet">
     <link href="sept11.css" rel="stylesheet">
 </head>
+
 <body>
-    <p>Cascading style sheets are really cool. 
+    <a href="#examples">Examples</a>
+    <a href="#sad">Feelings</a>
+    <a href="#interactive">Interactive</a>
+    <a href="#java">Java</a>
+
+    <h1 id="examples">Examples of different css producing the same result</h1>
+    <p>Cascading style sheets are really cool.
         Theres lots of different ways to do the same thing.
     </p>
     <div>
-    <p>I can do this with just div</p>
+        <p>I can do this with just div</p>
     </div>
     <p class="ex2"> I can also do this with a just class tag</p>
-    <p id="ex3">  or just an id tag</p>
+    <p id="ex3"> or just an id tag</p>
     The biggest reasons for the difference is how specific you need to be.
-    div is good if your working with a chunk of things in one spot, 
-    or need to section something of from everything else. 
+    div is good if your working with a chunk of things in one spot,
+    or need to section something of from everything else.
     Span is good for inline modifications.
     id is used when you have one thing and one thing only.
     class is best when you have multiple things throughout the sheet that
     you want styled the same.
-    
-    <p>Right now I can't get it to work and it makes me sad, very sad. 
-        If you look above you will see I did in fact make it work. 
+
+    <h1 id="sad">Feeling sad and then happy and then mean</h1>
+    <p>Right now I can't get it to work and it makes me sad, very sad.
+        If you look above you will see I did in fact make it work.
         There was an s at the end of <span class="emphasis">"stylesheet"</span>
-    that was casuing it to break and make me sad.</p>
+        that was causing it to break and make me sad.
+        I can also use formatting to mess with people if i'm feeling mean.
+        I can make someone think there is a misspelled word such as <span id="wrong">Paraphernalia</span>.</p>
+
+    <h1 id="interactive"> Lets do some fun user stuff</h1>
+
+    <p> Please enter your name
+        <input type="text"></p>
+
+    <p> What is your gender? <br>
+        <label><input type="radio" name="gender">Male</label>
+        <label><input type="radio" name="gender">Female</label>
+        <label><input type="radio" name="gender">Other</label>
+        <label><input type="radio" name="gender">N/A</label>
+        <label><input type="radio" name="gender">Do not wish to say</label></p>
+
+    <p> Random math test. Which numbers are prime? <br>
+        <label><input type="checkbox">1</label>
+        <label><input type="checkbox">2</label>
+        <label><input type="checkbox">3</label>
+        <label><input type="checkbox">4</label>
+        <label><input type="checkbox">5</label>
+        <label><input type="checkbox">6</label>
+        <label><input type="checkbox">7</label>
+        <label><input type="checkbox">8</label>
+        <label><input type="checkbox">9</label>
+        <label><input type="checkbox">10</label>
+        <label><input type="checkbox">11</label>
+        <label><input type="checkbox">12</label>
+        <label><input type="checkbox">13</label>
+        <label><input type="checkbox">14</label>
+        <label><input type="checkbox">15</label>
+        <label><input type="checkbox">16</label>
+        <label><input type="checkbox">17</label>
+        <label><input type="checkbox">18</label>
+        <label><input type="checkbox">19</label>
+        <label><input type="checkbox">20</label>
+    </p>
+
+    <p>
+        Tell me more about yourself <br>
+        <textarea></textarea>
+    </p>
+
+    <p>
+        This was...
+        <select>
+            <option>Select one</option>
+            <option>Fun</option>
+            <option>Weird</option>
+            <option>Boring</option>
+            <option>What???&#x1f615;</option>
+
+        </select>
+    </p>
+
+
+    <h1 id="java"> Or I can show you a Java method for adding the absolute value of 2 numbers</h1>
+    <pre>
+        public double addAbs(double num1, double num2) {
+            return Math.abs(num1)+Math.abs(num2);
+        }
+
+        </pre>
+        <h1>Final words</h1>
+        <p> I learned lots of things these first weeks and more than the examples shown above, 
+            but I decided the best way to talk about thing that I had learned was just to show them.</p>
+
+            <footer>I have no idea what i'm doing when it comes to really open ended stuff.</footer>
 </body>
+
 </html>

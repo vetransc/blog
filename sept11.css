@@ -11,6 +11,11 @@ div {
     color: royalblue;   
 }
 .emphasis {
-    font-weight: 1.5;
+    font-weight: bold;
     color: firebrick;   
+}
+#wrong {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
 }

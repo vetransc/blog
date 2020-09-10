@@ -1,0 +1,32 @@
+form{
+    border: slategrey solid;
+    width: 50%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: silver;
+    font-size: 1em;
+}
+
+#head{
+    background-color: silver;
+ 
+    
+}
+#blog{
+    width: 50%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1em;
+}
+#main{
+    background-color: lightgrey;
+
+}
+.forminput{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1em;
+}

@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(149, 230, 255);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#forminput{
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}

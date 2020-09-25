@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog 3</title>
+    <meta name="author" content="Sarah Vetrano">
+    <meta name="description" content="Third blog for CS 347, web development, taught by Chris Johnson. Fall 2020">
+    <meta name="keywords" content="blog, cs347, JMU, Web Development">
+    <link href="sept25.css" rel="stylesheet">
+    <script src="sept25.js" defer></script> 
+
+</head>
+
+<body>
+    <p>This week i'm looking into making a tabbed ppages on one page.
+        I am doing this beacuse it is currently 10 o'clock
+        on a thursday night and I cannot think of anything else to do.
+        This will include html, css, and javascript to make it work properly.
+    </p>
+    <p>I followed the tutorial off of w3school and it is not working and I do not know why.</p>
+
+    <div class="tab">
+        <button class="tablinks" onclick="open(event, 'GraphTheory')">Graph Theory</button>
+        <button class="tablinks" onclick="open(event, 'ComputerSystems')">Computer Systems</button>
+        <button class="tablinks" onclick="open(event, 'WebDev')">Web Development</button>
+        <button class="tablinks" onclick="open(event, 'Database')">Database</button>
+    </div>
+    <div id="GraphTheory" class="tabcontent">
+        <p> Graph Theory is MTH353 and is taught by Professor Ducey.</p>
+    </div>
+    <div id="ComputerSystems" class="tabcontent">
+        <p> Computer is CS261 and is taught by Professor Lam.</p>
+    </div>
+    <div id="WebDev" class="tabcontent">
+        <p> Web Development is CS347 and is taught by Professor Johnson (Chris).</p>
+    </div>
+    <div id="Database" class="tabcontent">
+        <p> Databse is CS374 and is taught by Professor Norton.</p>
+    </div>
+<footer>https://www.w3schools.com/howto/howto_js_tabs.asp</footer>
+</body>
+
+</html>

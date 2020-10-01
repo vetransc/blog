@@ -1,0 +1,9 @@
+p{
+    text-align: left;
+    max-width: 400px;
+    margin: 20px;
+}
+canvas{
+    border: black 10px solid;
+    background-color: darkgrey;
+}

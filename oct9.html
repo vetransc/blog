@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog 2</title>
+    <meta name="author" content="Sarah Vetrano">
+    <meta name="description" content="Third blog for CS 347, web development, taught by Chris Johnson. Fall 2020">
+    <meta name="keywords" content="blog, cs347, JMU, Web Development">
+    <link href="oct9.css" rel="stylesheet">
+    <script defer src="oct9.js"></script>
+
+
+
+</head>
+
+
+<body onload="startGame()">
+    <div id="button-grid">
+        <button id="up" onmousedown="moveup()" onmouseup="stopMove()">Up</button>
+        <button id="down" onmousedown="movedown()" onmouseup="stopMove()">Down</button>
+        <button id="left" onmousedown="moveleft()" onmouseup="stopMove()">Left</button>
+        <button id="right" onmousedown="moveright()" onmouseup="stopMove()">Right</button>
+    </div>
+    <p>This week I'm going to take the game that I started last week and add more functionality to it. I am going to add
+        controls, obstacles, and score.
+    </p>
+
+    <p>
+        So starting with adding in controls, I used a grid display to format the way the controls look in relation to
+        each other. I also changed the speed and the movement.
+        When I added in an obstacle I had to create a new component because my pieces are circles but I want my
+        obstacles to be rectangles. The other thing I changed is becasue they aren't created in the same compnent I
+        passed the height and width and postition of the obstacle directly by adding more inputs into the function and then I changed it back.
+        The score just keeps track of and displays the frame number.
+    </p>
+
+    <footer>
+        <p>https://www.w3schools.com/graphics/game_controllers.asp</p>
+        <p>https://www.w3schools.com/graphics/game_obstacles.asp</p>
+        <p>https://www.w3schools.com/graphics/game_score.asp</p>
+    </footer>
+
+</body>
+
+</html>

@@ -8,8 +8,8 @@ function startGame() {
     myGameArea.start();
     myGamePiece = new component("blue", 40, 200, 20)
     myScore = new obstacle("30px", "Consolas", "black", 200, 40, "text");
+    myMusic = new sound("Video_Music/cheer.mp3")
     mySound = new sound("Video_Music/Ball_Bounce.mp3")
-    mySound = new sound("Video_Music/Cheer.mp3")
     myMusic.play();
     myGameArea.start();
 }

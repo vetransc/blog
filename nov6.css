@@ -1,0 +1,39 @@
+p{
+    text-align: left;
+    max-width: 400px;
+    margin: 20px;
+}
+canvas{
+    border: black 10px solid;
+    background-color: darkgrey;
+}
+button{
+    font-size: 2em;
+    padding: 10px;
+    margin: 0px;
+}
+#button-grid{
+    max-width: 100px;
+    display: grid;
+    grid-template-columns: auto, auto,auto;
+    grid-template-rows: auto, auto,auto;
+    justify-items: center;
+    align-items: center;
+
+}
+#up{
+    grid-column: 2;
+    grid-row: 1;
+}
+#down{
+    grid-column: 2;
+    grid-row: 3;
+}
+#left{
+    grid-column: 1;
+    grid-row: 2;
+}
+#right{
+    grid-column: 3;
+    grid-row: 2;    
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog 2</title>
+    <meta name="author" content="Sarah Vetrano">
+    <meta name="description" content="Third blog for CS 347, web development, taught by Chris Johnson. Fall 2020">
+    <meta name="keywords" content="blog, cs347, JMU, Web Development">
+    <link href="nov6.css" rel="stylesheet">
+    <script defer src="nov6.js"></script>
+
+
+
+</head>
+
+
+<body onload="startGame()">
+    <div id="button-grid">
+        <button id="up" onmousedown="moveup()" onmouseup="stopMove()">Up</button>
+        <button id="down" onmousedown="movedown()" onmouseup="stopMove()">Down</button>
+        <button id="left" onmousedown="moveleft()" onmouseup="stopMove()">Left</button>
+        <button id="right" onmousedown="moveright()" onmouseup="stopMove()">Right</button>
+    </div>
+    <p>This week I'm going to continuethe game that I started several weeks ago and add more stuff to it.
+        I am going to add sound which is turning into a giant pain.
+    </p>
+
+    <p>
+        So I added sound so that when the ball hit an obstacle it would make a noise... it took forever to find an mp3
+        to download, and it is not working becasue of reasons - Autoplay is only allowed when approved by the user, the
+        site is activated by the user, or media is muted. nov6.js:159:17
+        Uncaught (in promise) DOMException: The play method is not allowed by the user agent or the platform in the
+        current context, possibly because the user denied permission. And now it's working for some reason. So it was
+        wokring but then I tried to put in a stop on a timeout so that it didn't play indefinitly and then it broke
+        again for the above reason. That didn't work I can get it to stop after one sound it just keep looping and everytime i try to use mySound.stop() it just doesn't play.
+
+    </p>
+
+    <footer>
+        <p>https://www.w3schools.com/graphics/game_controllers.asp</p>
+        <p>https://www.w3schools.com/graphics/game_obstacles.asp</p>
+        <p>https://www.w3schools.com/graphics/game_score.asp</p>
+    </footer>
+
+</body>
+
+</html>
